@@ -1,0 +1,5 @@
+num <- c(12,7,3,4.2,18,2,54,-21,8,-5)
+mean(num)
+mean(num, trim = 0.3)
+num_na <- c(12,7,3,4.2,18,2,54,-21,8,-5,NA)
+mean(num_na, na.rm = TRUE)
